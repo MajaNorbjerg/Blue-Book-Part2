@@ -20,6 +20,7 @@ body {
     font-weight: 300;
     /* font-family: 'Potta One', cursive; */
     /* font-family: 'Barlow', sans-serif; */
+    background-color: rosybrown;
 
 
 
@@ -33,6 +34,7 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     margin-bottom: .5em;
+    color: midnightblue;
 }
 
 h2 {
@@ -51,7 +53,7 @@ strong {
 /* Header
 .........................................................................*/
 header {
-    height: 5vh;
+    height: 10vh;
 }
 
 
@@ -62,18 +64,34 @@ main {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 section {
-    width: 45%;
+    width: 46%;
+    /* padding: 2%; */
     /* margin: 0 auto; */
+
 }
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
+.img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid midnightblue;
+}
+
+
+.text {
+    padding: 0 3%;
+}
 
 
 
